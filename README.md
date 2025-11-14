@@ -133,7 +133,7 @@ LOG @ 127.0.0.1:8001:
 
 **Atharva Khadilkar**  
 MS Computer Science, Stony Brook University  
-[LinkedIn](https://linkedin.com/in/atharva-khadilkar) | [GitHub](https://github.com/akhadilkar)
+[LinkedIn](https://linkedin.com/in/atharvakhadilkar) | [GitHub](https://github.com/akhadilkar)
 
 ## 📄 License
 
