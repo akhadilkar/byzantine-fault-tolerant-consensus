@@ -1,0 +1,17 @@
+# Binaries
+pbft
+*.exe
+*.out
+
+# Go workspace
+go.work
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log

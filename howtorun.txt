@@ -1,0 +1,35 @@
+Navigate to folder-> 
+bft-akhadilkar 
+
+run on driver terminal ->
+./pbft -role=driver -port=9000 -n=7 -csv="CSE535-F25-Project-2-Testcases.csv"
+
+run on nodes ->
+./pbft -role=node -id=n1 -port=8001 -driver=127.0.0.1:9000
+./pbft -role=node -id=n2 -port=8002 -driver=127.0.0.1:9000
+./pbft -role=node -id=n3 -port=8003 -driver=127.0.0.1:9000
+./pbft -role=node -id=n4 -port=8004 -driver=127.0.0.1:9000
+./pbft -role=node -id=n5 -port=8005 -driver=127.0.0.1:9000
+./pbft -role=node -id=n6 -port=8006 -driver=127.0.0.1:9000
+./pbft -role=node -id=n7 -port=8007 -driver=127.0.0.1:9000
+
+run on nodes (Optimistic phase reduction) ->
+./pbft -role=node -id=n1 -port=8001 -driver=127.0.0.1:9000 -optimistic=true
+./pbft -role=node -id=n2 -port=8002 -driver=127.0.0.1:9000 -optimistic=true
+./pbft -role=node -id=n3 -port=8003 -driver=127.0.0.1:9000 -optimistic=true
+./pbft -role=node -id=n4 -port=8004 -driver=127.0.0.1:9000 -optimistic=true
+./pbft -role=node -id=n5 -port=8005 -driver=127.0.0.1:9000 -optimistic=true
+./pbft -role=node -id=n6 -port=8006 -driver=127.0.0.1:9000 -optimistic=true
+./pbft -role=node -id=n7 -port=8007 -driver=127.0.0.1:9000 -optimistic=true
+
+then type commands on driver terminal ->
+type next - it will execute the first set 
+
+then type ->
+set 1 - resets and runs that set
+and commands you can type in it are ->
+db
+status
+log 
+slot (optimistic phase reduction will be displayed here if it happens)
+leader ...
